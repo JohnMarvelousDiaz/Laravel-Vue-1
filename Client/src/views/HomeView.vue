@@ -1,9 +1,9 @@
 <template>
   <main>
-    <ScreenLoader v-if="loading" />
+    <!-- <ScreenLoader v-if="loading" /> -->
     <div class="w-screen h-screen bg">
       <div class="w-screen h-screen bg1">
-        <div class="h-auto flex flex-col items-center justify-center py-16">
+        <div class="h-auto flex flex-col items-center justify-center py-8">
           <div class="flex flex-col justify-center items-center">
             <img src="../assets/images/bulsu_logo.png" class="w-16" />
             <span class="text-white text-2xl font-semibold"
